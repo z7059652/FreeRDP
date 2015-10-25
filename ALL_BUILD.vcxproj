@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FBE1D0DB-A059-32FF-A474-9A1EDE344C70}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\freerdp;D:\freerdp\include;D:\FreeRDP-master\FreeRDP-master\include;D:\FreeRDP-master\FreeRDP-master\winpr\include;D:\freerdp\winpr\include;D:\FreeRDP-master\FreeRDP-master\rdtk\include;D:\freerdp\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\freerdp;D:\freerdp\include;D:\FreeRDP-master\FreeRDP-master\include;D:\FreeRDP-master\FreeRDP-master\winpr\include;D:\freerdp\winpr\include;D:\FreeRDP-master\FreeRDP-master\rdtk\include;D:\freerdp\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\freerdp;D:\freerdp\include;D:\FreeRDP-master\FreeRDP-master\include;D:\FreeRDP-master\FreeRDP-master\winpr\include;D:\freerdp\winpr\include;D:\FreeRDP-master\FreeRDP-master\rdtk\include;D:\freerdp\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\freerdp;D:\freerdp\include;D:\FreeRDP-master\FreeRDP-master\include;D:\FreeRDP-master\FreeRDP-master\winpr\include;D:\freerdp\winpr\include;D:\FreeRDP-master\FreeRDP-master\rdtk\include;D:\freerdp\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/freerdp/channels/audin/client/audin-client.vcxproj">
+      <Project>EEDE04A6-A8B2-356D-A553-1D494C5BF387</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/audin/client/winmm/audin-client-winmm.vcxproj">
+      <Project>B3C6A96E-B5DB-3D74-929A-88CAB25F9F64</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/cliprdr/client/cliprdr-client.vcxproj">
+      <Project>9DE34162-0910-3891-9A83-7D4D100F1F55</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/disp/client/disp-client.vcxproj">
+      <Project>9BC0BA4C-BB19-3B5A-B28A-08F3595C0418</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/drdynvc/client/drdynvc-client.vcxproj">
+      <Project>30CF1E5F-645A-3077-BE06-F31A265E608C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/drive/client/drive-client.vcxproj">
+      <Project>E73DFCF1-CB17-3657-8186-BB1681E0E32D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/echo/client/echo-client.vcxproj">
+      <Project>8368CCBA-2BBD-351E-B16B-D6FCE7E4A303</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/encomsp/client/encomsp-client.vcxproj">
+      <Project>A9911F41-551B-30C2-BAB8-1B616CBF21FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/libfreerdp/freerdp.vcxproj">
+      <Project>1EBEAA42-53ED-311D-A656-2B018D51832F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/client/common/freerdp-client.vcxproj">
+      <Project>1438DA58-C4E9-3F73-A1FB-D407D3AAEA0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/printer/client/printer-client.vcxproj">
+      <Project>48F1CDA9-9E49-3A34-BA40-461142EDF882</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rail/client/rail-client.vcxproj">
+      <Project>4AC67496-29C3-3313-AF03-2A18ADCDE620</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rdpdr/client/rdpdr-client.vcxproj">
+      <Project>CC43FFC4-CBA7-32E4-B429-C1162A5DF62C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rdpei/client/rdpei-client.vcxproj">
+      <Project>63F85182-9528-3E93-A1CA-99C40234D563</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rdpgfx/client/rdpgfx-client.vcxproj">
+      <Project>D21DA910-5112-37EF-AB1A-5A9CA51852C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rdpsnd/client/rdpsnd-client.vcxproj">
+      <Project>1BD9D5A9-90FA-3EA1-9055-E61946C641E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/rdpsnd/client/winmm/rdpsnd-client-winmm.vcxproj">
+      <Project>BDBA998E-BD8A-3B3B-B1A1-7D05481CBF2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/rdtk/librdtk/rdtk.vcxproj">
+      <Project>0EC26060-160D-3D7C-8679-D3A0AD065EE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/remdesk/client/remdesk-client.vcxproj">
+      <Project>79345ABA-34F0-3DE6-B48D-325470E29B7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/channels/smartcard/client/smartcard-client.vcxproj">
+      <Project>167DE9EB-CC22-3C69-BC90-71B0D3C20384</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/client/Windows/cli/wfreerdp.vcxproj">
+      <Project>A5BA5A49-9495-33E3-BE71-904C3579BF7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/client/Windows/wfreerdp-client.vcxproj">
+      <Project>0C7AD636-01B6-3EE7-B925-A64C39E62B56</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/winpr/libwinpr/winpr.vcxproj">
+      <Project>217C5F2B-D2F1-35A5-98ED-B29CDBC60155</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/winpr/tools/hash/winpr-hash.vcxproj">
+      <Project>8225320E-D9BA-3FEA-80A6-4449E0D810F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/winpr/tools/makecert/cli/winpr-makecert.vcxproj">
+      <Project>2AE9EAA8-6F87-3B52-AA91-16BF977089EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/freerdp/winpr/tools/makecert/winpr-makecert-tool.vcxproj">
+      <Project>1CCECE40-07FE-3CFD-AA6D-6A1B88FB95D9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

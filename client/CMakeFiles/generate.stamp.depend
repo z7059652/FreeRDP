@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/FreeRDP-master/FreeRDP-master/client/CMakeLists.txt
+D:/FreeRDP-master/FreeRDP-master/client/Android/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/DirectFB/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/iOS/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/Mac/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/Sample/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/Windows/ModuleOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/client/X11/ModuleOptions.cmake

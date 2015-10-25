@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/FreeRDP-master/FreeRDP-master/channels/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDependentOption.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/audin/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/cliprdr/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/disp/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/drdynvc/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/drive/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/echo/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/encomsp/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/parallel/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/printer/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/rail/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/rdpdr/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/rdpei/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/rdpgfx/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/rdpsnd/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/remdesk/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/serial/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/smartcard/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/tsmf/ChannelOptions.cmake
+D:/FreeRDP-master/FreeRDP-master/channels/urbdrc/ChannelOptions.cmake
