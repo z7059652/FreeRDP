@@ -1,5 +1,5 @@
-﻿Build started 10/22/2015 2:04:58 PM.
-     1>Project "D:\freerdp\client\common\freerdp-client.vcxproj" on node 5 (Build target(s)).
+﻿Build started 10/26/2015 4:29:49 PM.
+     1>Project "D:\freerdp\client\common\freerdp-client.vcxproj" on node 7 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\freerdp /ID:\freerdp\include /I"D:\FreeRDP-master\FreeRDP-master\include" /I"D:\FreeRDP-master\FreeRDP-master\winpr\include" /ID:\freerdp\winpr\include /I"D:\FreeRDP-master\FreeRDP-master\rdtk\include" /ID:\freerdp\rdtk\include /ID:\freerdp\channels\client /I"D:\FreeRDP-master\FreeRDP-master\channels\client" /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_client_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp-client.dir\Debug\\" /Fd"freerdp-client.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRDP-master\FreeRDP-master\client\common\client.c" "D:\FreeRDP-master\FreeRDP-master\client\common\cmdline.c" "D:\FreeRDP-master\FreeRDP-master\client\common\compatibility.c" "D:\FreeRDP-master\FreeRDP-master\client\common\file.c" D:\freerdp\channels\client\tables.c "D:\FreeRDP-master\FreeRDP-master\channels\client\addin.c"
          client.c
@@ -24,8 +24,8 @@
          "freerdp-client.dir\Debug\addin.obj"
             Creating library D:/freerdp/Debug/freerdp-client.lib and object D:/freerdp/Debug/freerdp-client.exp
          freerdp-client.vcxproj -> D:\freerdp\Debug\freerdp-client.dll
-     1>Done Building Project "D:\freerdp\client\common\freerdp-client.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\freerdp\client\common\freerdp-client.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.05
+Time Elapsed 00:00:02.58

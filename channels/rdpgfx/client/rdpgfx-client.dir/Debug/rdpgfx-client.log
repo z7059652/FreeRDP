@@ -1,5 +1,5 @@
-﻿Build started 10/22/2015 2:04:56 PM.
-     1>Project "D:\freerdp\channels\rdpgfx\client\rdpgfx-client.vcxproj" on node 3 (Build target(s)).
+﻿Build started 10/26/2015 4:29:45 PM.
+     1>Project "D:\freerdp\channels\rdpgfx\client\rdpgfx-client.vcxproj" on node 6 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\freerdp /ID:\freerdp\include /I"D:\FreeRDP-master\FreeRDP-master\include" /I"D:\FreeRDP-master\FreeRDP-master\winpr\include" /ID:\freerdp\winpr\include /I"D:\FreeRDP-master\FreeRDP-master\rdtk\include" /ID:\freerdp\rdtk\include /I"D:\FreeRDP-master\FreeRDP-master\channels\rdpgfx\client\.." /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"rdpgfx-client.dir\Debug\\" /Fd"rdpgfx-client.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRDP-master\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c" "D:\FreeRDP-master\FreeRDP-master\channels\rdpgfx\client\rdpgfx_codec.c" "D:\FreeRDP-master\FreeRDP-master\channels\rdpgfx\client\rdpgfx_common.c"
          rdpgfx_main.c
@@ -15,8 +15,8 @@
          "rdpgfx-client.dir\Debug\rdpgfx_codec.obj"
          "rdpgfx-client.dir\Debug\rdpgfx_common.obj"
          rdpgfx-client.vcxproj -> D:\freerdp\Debug\rdpgfx-client.lib
-     1>Done Building Project "D:\freerdp\channels\rdpgfx\client\rdpgfx-client.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\freerdp\channels\rdpgfx\client\rdpgfx-client.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.57
+Time Elapsed 00:00:01.74

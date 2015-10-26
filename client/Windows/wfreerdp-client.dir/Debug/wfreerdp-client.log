@@ -1,4 +1,4 @@
-﻿Build started 10/23/2015 3:22:46 PM.
+﻿Build started 10/26/2015 5:31:48 PM.
      1>Project "D:\freerdp\client\Windows\wfreerdp-client.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\freerdp /ID:\freerdp\include /I"D:\FreeRDP-master\FreeRDP-master\include" /I"D:\FreeRDP-master\FreeRDP-master\winpr\include" /ID:\freerdp\winpr\include /I"D:\FreeRDP-master\FreeRDP-master\rdtk\include" /ID:\freerdp\rdtk\include /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D wfreerdp_client_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"wfreerdp-client.dir\Debug\\" /Fd"wfreerdp-client.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRDP-master\FreeRDP-master\client\Windows\wf_event.c"
@@ -19,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.37
+Time Elapsed 00:00:01.33

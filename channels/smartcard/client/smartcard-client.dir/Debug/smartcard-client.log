@@ -1,5 +1,5 @@
-﻿Build started 10/22/2015 2:04:54 PM.
-     1>Project "D:\freerdp\channels\smartcard\client\smartcard-client.vcxproj" on node 4 (Build target(s)).
+﻿Build started 10/26/2015 4:29:46 PM.
+     1>Project "D:\freerdp\channels\smartcard\client\smartcard-client.vcxproj" on node 9 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\freerdp /ID:\freerdp\include /I"D:\FreeRDP-master\FreeRDP-master\include" /I"D:\FreeRDP-master\FreeRDP-master\winpr\include" /ID:\freerdp\winpr\include /I"D:\FreeRDP-master\FreeRDP-master\rdtk\include" /ID:\freerdp\rdtk\include /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"smartcard-client.dir\Debug\\" /Fd"smartcard-client.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRDP-master\FreeRDP-master\channels\smartcard\client\smartcard_main.c" "D:\FreeRDP-master\FreeRDP-master\channels\smartcard\client\smartcard_pack.c" "D:\FreeRDP-master\FreeRDP-master\channels\smartcard\client\smartcard_operations.c"
          smartcard_main.c
@@ -14,8 +14,8 @@
          "smartcard-client.dir\Debug\smartcard_pack.obj"
          "smartcard-client.dir\Debug\smartcard_operations.obj"
          smartcard-client.vcxproj -> D:\freerdp\Debug\smartcard-client.lib
-     1>Done Building Project "D:\freerdp\channels\smartcard\client\smartcard-client.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\freerdp\channels\smartcard\client\smartcard-client.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:03.27
